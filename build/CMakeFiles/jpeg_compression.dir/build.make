@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/husainsaif/Desktop/JPEG_cmprsn
+CMAKE_SOURCE_DIR = /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/husainsaif/Desktop/JPEG_cmprsn/build
+CMAKE_BINARY_DIR = /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/jpeg_compression.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/jpeg_compression.dir/progress.make
 include CMakeFiles/jpeg_compression.dir/flags.make
 
 CMakeFiles/jpeg_compression.dir/src/dct.cpp.o: CMakeFiles/jpeg_compression.dir/flags.make
-CMakeFiles/jpeg_compression.dir/src/dct.cpp.o: /Users/husainsaif/Desktop/JPEG_cmprsn/src/dct.cpp
+CMakeFiles/jpeg_compression.dir/src/dct.cpp.o: /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/dct.cpp
 CMakeFiles/jpeg_compression.dir/src/dct.cpp.o: CMakeFiles/jpeg_compression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jpeg_compression.dir/src/dct.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/src/dct.cpp.o -MF CMakeFiles/jpeg_compression.dir/src/dct.cpp.o.d -o CMakeFiles/jpeg_compression.dir/src/dct.cpp.o -c /Users/husainsaif/Desktop/JPEG_cmprsn/src/dct.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jpeg_compression.dir/src/dct.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/src/dct.cpp.o -MF CMakeFiles/jpeg_compression.dir/src/dct.cpp.o.d -o CMakeFiles/jpeg_compression.dir/src/dct.cpp.o -c /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/dct.cpp
 
 CMakeFiles/jpeg_compression.dir/src/dct.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jpeg_compression.dir/src/dct.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/JPEG_cmprsn/src/dct.cpp > CMakeFiles/jpeg_compression.dir/src/dct.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/dct.cpp > CMakeFiles/jpeg_compression.dir/src/dct.cpp.i
 
 CMakeFiles/jpeg_compression.dir/src/dct.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jpeg_compression.dir/src/dct.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/JPEG_cmprsn/src/dct.cpp -o CMakeFiles/jpeg_compression.dir/src/dct.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/dct.cpp -o CMakeFiles/jpeg_compression.dir/src/dct.cpp.s
 
 CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o: CMakeFiles/jpeg_compression.dir/flags.make
-CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o: /Users/husainsaif/Desktop/JPEG_cmprsn/src/quantization.cpp
+CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o: /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/quantization.cpp
 CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o: CMakeFiles/jpeg_compression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o -MF CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o.d -o CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o -c /Users/husainsaif/Desktop/JPEG_cmprsn/src/quantization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o -MF CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o.d -o CMakeFiles/jpeg_compression.dir/src/quantization.cpp.o -c /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/quantization.cpp
 
 CMakeFiles/jpeg_compression.dir/src/quantization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jpeg_compression.dir/src/quantization.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/JPEG_cmprsn/src/quantization.cpp > CMakeFiles/jpeg_compression.dir/src/quantization.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/quantization.cpp > CMakeFiles/jpeg_compression.dir/src/quantization.cpp.i
 
 CMakeFiles/jpeg_compression.dir/src/quantization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jpeg_compression.dir/src/quantization.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/JPEG_cmprsn/src/quantization.cpp -o CMakeFiles/jpeg_compression.dir/src/quantization.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/quantization.cpp -o CMakeFiles/jpeg_compression.dir/src/quantization.cpp.s
 
 CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o: CMakeFiles/jpeg_compression.dir/flags.make
-CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o: /Users/husainsaif/Desktop/JPEG_cmprsn/src/image_utils.cpp
+CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o: /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/image_utils.cpp
 CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o: CMakeFiles/jpeg_compression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o -MF CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o.d -o CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o -c /Users/husainsaif/Desktop/JPEG_cmprsn/src/image_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o -MF CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o.d -o CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.o -c /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/image_utils.cpp
 
 CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/JPEG_cmprsn/src/image_utils.cpp > CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/image_utils.cpp > CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.i
 
 CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/JPEG_cmprsn/src/image_utils.cpp -o CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/src/image_utils.cpp -o CMakeFiles/jpeg_compression.dir/src/image_utils.cpp.s
 
 CMakeFiles/jpeg_compression.dir/main.cpp.o: CMakeFiles/jpeg_compression.dir/flags.make
-CMakeFiles/jpeg_compression.dir/main.cpp.o: /Users/husainsaif/Desktop/JPEG_cmprsn/main.cpp
+CMakeFiles/jpeg_compression.dir/main.cpp.o: /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/main.cpp
 CMakeFiles/jpeg_compression.dir/main.cpp.o: CMakeFiles/jpeg_compression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/jpeg_compression.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/main.cpp.o -MF CMakeFiles/jpeg_compression.dir/main.cpp.o.d -o CMakeFiles/jpeg_compression.dir/main.cpp.o -c /Users/husainsaif/Desktop/JPEG_cmprsn/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/jpeg_compression.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/jpeg_compression.dir/main.cpp.o -MF CMakeFiles/jpeg_compression.dir/main.cpp.o.d -o CMakeFiles/jpeg_compression.dir/main.cpp.o -c /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/main.cpp
 
 CMakeFiles/jpeg_compression.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/jpeg_compression.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/JPEG_cmprsn/main.cpp > CMakeFiles/jpeg_compression.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/main.cpp > CMakeFiles/jpeg_compression.dir/main.cpp.i
 
 CMakeFiles/jpeg_compression.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/jpeg_compression.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/JPEG_cmprsn/main.cpp -o CMakeFiles/jpeg_compression.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/main.cpp -o CMakeFiles/jpeg_compression.dir/main.cpp.s
 
 # Object files for target jpeg_compression
 jpeg_compression_OBJECTS = \
@@ -197,7 +197,7 @@ jpeg_compression: /opt/homebrew/lib/libopencv_photo.4.11.0.dylib
 jpeg_compression: /opt/homebrew/lib/libopencv_imgproc.4.11.0.dylib
 jpeg_compression: /opt/homebrew/lib/libopencv_core.4.11.0.dylib
 jpeg_compression: CMakeFiles/jpeg_compression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable jpeg_compression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable jpeg_compression"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jpeg_compression.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,6 +209,6 @@ CMakeFiles/jpeg_compression.dir/clean:
 .PHONY : CMakeFiles/jpeg_compression.dir/clean
 
 CMakeFiles/jpeg_compression.dir/depend:
-	cd /Users/husainsaif/Desktop/JPEG_cmprsn/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/husainsaif/Desktop/JPEG_cmprsn /Users/husainsaif/Desktop/JPEG_cmprsn /Users/husainsaif/Desktop/JPEG_cmprsn/build /Users/husainsaif/Desktop/JPEG_cmprsn/build /Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles/jpeg_compression.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build /Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/build/CMakeFiles/jpeg_compression.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/jpeg_compression.dir/depend
 

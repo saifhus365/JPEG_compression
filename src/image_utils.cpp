@@ -5,11 +5,23 @@
 #include "image_utils.h"
 
 cv::Mat ImageUtils::loadImage(const std::string& path) {
-    cv::Mat image = cv::imread(path, cv::IMREAD_GRAYSCALE);
+    cv::Mat image = cv::imread(path, cv::IMREAD_COLOR);
     if (image.empty()) {
         throw std::runtime_error("Failed to load image: " + path);
     }
     return image;
+}
+
+std::vector<cv::Mat> ImageUtils::splitChannels(const cv::Mat& image) {
+    std::vector<cv::Mat> channels;
+    cv::split(image, channels);
+    return channels;
+}
+
+cv::Mat ImageUtils::mergeChannels(const std::vector<cv::Mat>& channels) {
+    cv::Mat result;
+    cv::merge(channels, result);
+    return result;
 }
 
 void ImageUtils::saveImage(const cv::Mat& image, const std::string& path) {

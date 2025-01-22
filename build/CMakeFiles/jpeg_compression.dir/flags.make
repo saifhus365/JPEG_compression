@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/husainsaif/Desktop/JPEG_cmprsn/include -isystem /opt/homebrew/Cellar/opencv/4.11.0/include/opencv4
+CXX_INCLUDES = -I/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/include -isystem /opt/homebrew/Cellar/opencv/4.11.0/include/opencv4
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
 
