@@ -1,0 +1,3 @@
+/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles/jpeg_compression.dir
+/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles/edit_cache.dir
+/Users/husainsaif/Desktop/JPEG_cmprsn/build/CMakeFiles/rebuild_cache.dir

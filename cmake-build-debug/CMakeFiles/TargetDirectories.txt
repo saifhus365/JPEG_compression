@@ -1,0 +1,3 @@
+/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/cmake-build-debug/CMakeFiles/jpeg_compression.dir
+/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/husainsaif/Desktop/CompGraph/excercise/JPEG_compression/cmake-build-debug/CMakeFiles/rebuild_cache.dir
