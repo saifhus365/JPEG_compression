@@ -5,7 +5,7 @@
 #include "quantization.h"
 
 cv::Mat Quantization::getQuantizationMatrix(int quality) {
-    // Much more aggressive base quantization matrix
+
     cv::Mat baseMatrix = (cv::Mat_<float>(8, 8) <<
         32, 33, 34, 37, 50, 60, 70, 80,
         33, 35, 36, 44, 53, 75, 85, 90,
@@ -16,21 +16,21 @@ cv::Mat Quantization::getQuantizationMatrix(int quality) {
         70, 85, 90, 97, 110, 125, 140, 145,
         80, 90, 95, 98, 115, 130, 145, 150);
 
-    // Make quality factor more aggressive
+
     float scale;
     if (quality < 50)
-        scale = 10000 / quality;  // Much more aggressive for low quality
+        scale = 10000 / quality;
     else
         scale = 200 - 2 * quality;
 
-    // Apply scaling and ensure minimum quantization value
+
     cv::Mat scaledMatrix = baseMatrix * (scale / 100.0f);
     cv::max(scaledMatrix, 1, scaledMatrix);
 
-    // Further increase high frequency coefficients to create more blocking
+
     for (int i = 4; i < 8; i++) {
         for (int j = 4; j < 8; j++) {
-            scaledMatrix.at<float>(i, j) *= 1.5;  // Increase high frequency quantization
+            scaledMatrix.at<float>(i, j) *= 1.5;
         }
     }
 

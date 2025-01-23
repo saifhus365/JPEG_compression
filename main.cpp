@@ -22,7 +22,7 @@ cv::Mat processChannel(const cv::Mat& channel, int quality) {
     std::vector<cv::Mat> blocks = ImageUtils::splitIntoBlocks(float_img);
     std::vector<cv::Mat> processed_blocks;
 
-    // Process each block
+
     for (const cv::Mat& block : blocks) {
         // Forward DCT
         cv::Mat dct_block = DCT::forward(block);
@@ -39,14 +39,12 @@ cv::Mat processChannel(const cv::Mat& channel, int quality) {
         processed_blocks.push_back(reconstructed);
     }
 
-    // Reconstruct channel from blocks
+
     cv::Mat reconstructed_float = ImageUtils::reconstructFromBlocks(
         processed_blocks, padded.rows, padded.cols);
 
-    // Convert back to uchar
     cv::Mat result = ImageUtils::convertToUchar(reconstructed_float);
 
-    // Crop to original size
     return result(cv::Range(0, channel.rows), cv::Range(0, channel.cols));
 }
 
@@ -58,8 +56,8 @@ int main(int argc, char** argv) {
         // Split into channels
         std::vector<cv::Mat> channels = ImageUtils::splitChannels(image);
 
-        // Process each channel
-        int quality = 50; // Adjustable quality factor (1-100)
+
+        int quality = 10;
         std::vector<cv::Mat> processed_channels;
 
         for (const cv::Mat& channel : channels) {
@@ -69,7 +67,6 @@ int main(int argc, char** argv) {
         // Merge channels back together
         cv::Mat result = ImageUtils::mergeChannels(processed_channels);
 
-        // Save result
         ImageUtils::saveImage(result, "assets/output.jpg");
 
         std::cout << "Color image compression completed successfully!" << std::endl;
